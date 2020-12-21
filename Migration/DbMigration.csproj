@@ -1,12 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Release1\" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="FluentMigrator" Version="3.2.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="FluentMigrator.Runner.Postgres" Version="3.2.10" />
     <PackageReference Include="FluentMigrator.Runner" Version="3.2.10" />
     <PackageReference Include="Npgsql" Version="5.0.1.1" />
