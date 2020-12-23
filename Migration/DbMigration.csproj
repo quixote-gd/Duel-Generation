@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Release1\" />
+    <Folder Include="Release1\data\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentMigrator" Version="3.2.10" />
