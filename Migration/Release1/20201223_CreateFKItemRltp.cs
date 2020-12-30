@@ -13,10 +13,10 @@ namespace DbMigration
         public override void Up()
         {
 
-            Create.ForeignKey("fkCharacterType")
-                .FromTable("Character")
-                .ForeignColumn("Type")
-                .ToTable("CharacterTypeTable")
+            Create.ForeignKey("fkItemId")
+                .FromTable("Item")
+                .ForeignColumn("Id")
+                .ToTable("")
                 .PrimaryColumn("Id");
 
             Create.ForeignKey("fkItemType")
